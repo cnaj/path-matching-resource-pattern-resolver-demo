@@ -1,0 +1,7 @@
+target/
+.idea/
+
+!.idea/runConfigurations
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/*.iml
