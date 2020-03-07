@@ -2,9 +2,9 @@
 
 This repository contains a demo of the behavior described in [spring-projects/spring-framework#24480](https://github.com/spring-projects/spring-framework/issues/24480).
 
-The behavior is most easily seen in IntelliJ IDEA, using the provided run configurations. You have to have JDKs with the name `"8"` and `"11.0.4"` defined in your IDEA project to be able to execute the run configurations.
+Run the files `demo-jar-cp.sh` ana `demo-normal.cp.sh` to see the behavior.
 
-TODO: Working Maven demo
+The behavior can also be seen in IntelliJ IDEA, using the provided run configurations. You have to have JDKs with the name `"8"` and `"11.0.4"` defined in your IDEA project to be able to execute the run configurations.
 
 ## Description
 
