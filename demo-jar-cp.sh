@@ -2,7 +2,4 @@
 
 mvn -B clean package
 
-(
-  cd target
-  java -cp path-matching-resource-pattern-resolver-demo-0.0.1-SNAPSHOT-cp.jar com.example.minimal.ResourceDemo
-)
+java -cp target/path-matching-resource-pattern-resolver-demo-0.0.1-SNAPSHOT-cp.jar com.example.minimal.ResourceDemo

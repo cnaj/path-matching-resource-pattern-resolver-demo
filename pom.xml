@@ -48,28 +48,13 @@
 							<archive>
 								<manifest>
 									<addClasspath>true</addClasspath>
+									<classpathPrefix>${settings.localRepository}</classpathPrefix>
+									<classpathLayoutType>repository</classpathLayoutType>
 								</manifest>
 								<manifestEntries>
 									<Class-Path>${project.artifactId}-${project.version}.jar</Class-Path>
 								</manifestEntries>
 							</archive>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<artifactId>maven-dependency-plugin</artifactId>
-				<version>3.1.1</version>
-				<executions>
-					<execution>
-						<id>copy-dependencies-for-demo</id>
-						<goals>
-							<goal>copy-dependencies</goal>
-						</goals>
-						<phase>package</phase>
-						<configuration>
-							<outputDirectory>${project.build.directory}</outputDirectory>
-							<stripClassifier>true</stripClassifier>
 						</configuration>
 					</execution>
 				</executions>
